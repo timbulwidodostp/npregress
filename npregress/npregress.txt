@@ -2,8 +2,8 @@
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
 # Local polynomials smoothing Use npregress With (In) R Software
-install.packages("npregress")
-library("npregress")
+install.packages("ibr")
+library("ibr")
 npregress = read.csv("https://raw.githubusercontent.com/timbulwidodostp/npregress/main/npregress/npregress.csv",sep = ";")
 # Estimation Local polynomials smoothing Use npregress With (In) R Software
 time <-npregress$time
